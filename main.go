@@ -36,6 +36,6 @@ func main() {
 	r := mux.NewRouter()
 	r.HandleFunc("/{short}", RedirectHandler)
 
-	log.Println("Server started on :8000")
-	http.ListenAndServe(":8000", r)
+	log.Println("Server started on :80")
+	http.ListenAndServe(":80", r)
 }
