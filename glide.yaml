@@ -1,0 +1,3 @@
+package: github.com/schickling/googl-proxy
+import:
+- package: github.com/gorilla/mux
